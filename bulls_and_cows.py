@@ -3,9 +3,9 @@
 """
 -------------------------------------------------
    File Name：     bulls_and_cows.py
-   Author :        Mallikarjun
+   Author :        Mallikarjun Somanakatti
    time：          Aug 9 2024
-   Description :
+   Description : Automated Bulls and Cows Game
 -------------------------------------------------
 """
 
@@ -48,7 +48,7 @@ def main():
 
     your_tries = 0
     secretcode = genrateNum() 
-    print("Secret Code is: ", secretcode)
+    #print("Secret Code is: ", secretcode) # Un-comment this line if you need to debug
 
     while True:
         try:
